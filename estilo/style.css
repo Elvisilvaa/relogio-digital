@@ -52,14 +52,12 @@ body {
 
 footer {
     background-color: var(--cor5);
-    color: white;
-    text-align: center;
+    color: black;
     font-size: 1em;
-    padding: 8px;
 }
 
 footer a {
-    color: white;
+    color: black;
     font-weight: bolder;
     text-decoration: none;
 }
