@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -50,10 +50,13 @@ body {
     font-size: 10px;
 }
 
-footer {
+footer > p {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
     background-color: var(--cor5);
     color: black;
     font-size: 1em;
+    left: 100px;
 }
 
 footer a {
@@ -64,5 +67,5 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-    color: var(--cor0);
+    color: yellow;
 }
